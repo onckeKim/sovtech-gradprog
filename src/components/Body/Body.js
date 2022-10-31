@@ -1,15 +1,13 @@
 import React from 'react';
-import "./Body.css"
+import { Avatar } from '../avatar';
+import "./Body.css";
 
 
 const Body = () => {
     return(
-        <div>
-                <section id="home">
-                    <div className="avatar-container">
-                        <img src="avatar.jpg" alt="Kim Oncke" className="avatar" />
-                    </div>
-                    <div className="greeting-container">
+        <div className="body">
+            <Avatar/>
+            <div className="greeting-container">
                         <h1 className="greeting-container__header"> Welcome! I'm Kim Oncke.</h1>
                         <p className='greeting-container__intro'> 
                             I am a final Bcom Management Sciences student with Information Systems Management  & Business Analytics as majors. <br />
@@ -17,9 +15,6 @@ const Body = () => {
                             I appreciate the opportunity to present myself and look forward to working with you. 
                         </p>
             </div>
-        </section>
-            
-            
         </div>
     )
 }

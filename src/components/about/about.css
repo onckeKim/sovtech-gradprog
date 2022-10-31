@@ -1,0 +1,25 @@
+.about {
+    background-color: aqua;
+    padding: 10px;
+}
+
+.about_header {
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    animation: moveInRight 1.5s ease;
+    -webkit-animation: moveInRight 1.5s ease; 
+    margin-bottom: 10px;
+}
+
+.about_intro {
+    flex-wrap: wrap;
+    font-size: 2rem;
+    line-height: 2.8rem;
+    font-family: 'Florence';
+    text-align: center;
+    text-shadow: 0.5px 0.5px 1px rgba(0, 0, 0, 0.3);
+    animation: moveInRight 1.5s ease;
+    -webkit-animation: moveInRight 1.5s ease; 
+}

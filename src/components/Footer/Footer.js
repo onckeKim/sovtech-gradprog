@@ -9,19 +9,18 @@ import {
 const Footer = () => {
     return(
         <div>
-           <header className="footer">
-                <nav className="navbar">
-                    <div className="navbar-logo">
+                <nav className="footer">
+                    <div className="footer-logo">
                         <table className = "contacts">
                             <tr>
-                                <td><AiOutlineMail />   <p className = "logo-name"> onckekim@gmail.com</p></td>
+                                <td> <p className = "twitter-logo"><a href="mailto:
+                                    onckekim@gmail.com"><AiOutlineMail /></a></p></td>
                                 <td><AiFillLinkedin />  <p className = "logo-name"> Kim Oncke</p>   </td>
                                 <td><AiFillGithub />    <p className = "logo-name"> onckeKim</p> </td>
                             </tr>
                         </table>
                     </div>
                 </nav>
-            </header>
         </div>
     )
 }
