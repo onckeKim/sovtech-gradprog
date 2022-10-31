@@ -1,6 +1,6 @@
 import './App.css';
 import { About } from './components/about';
-import Footer from './components/Footer/Footer';
+import { Footer } from "./components/Footer";
 import { Header } from "./components/Header";
 
 function App() {
@@ -8,7 +8,8 @@ function App() {
     <div className="App">
       <Header />
       <About/>
-      <Footer />
+      
+<Footer />
     </div>
   );
 }

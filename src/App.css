@@ -106,8 +106,9 @@ html {
     opacity: 1; } }
 
 .App {
+  min-height: 100vh;
   max-width: 100vw;
-  max-height: 100vh;
   overflow-x: hidden;
   overflow-y: scroll;
+  position: relative;
 }
