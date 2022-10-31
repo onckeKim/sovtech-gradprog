@@ -1,23 +1,14 @@
-.avatar-container {
-    position: relative;
-}
-
 .avatar {
-    height: 30rem;
-    width: 30rem;
-    border-radius: 50rem;
+    height: 65vw;
+    width: 65vw;
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 800px;
     -webkit-border-radius: 20rem;
     -moz-border-radius: 20rem;
     -ms-border-radius: 20rem;
     -o-border-radius: 20rem;
     animation: moveInBottom 1s ease;
     -webkit-animation: moveInBottom 1s ease;
-}
-
-@media only screen and (max-width: 800px) {
-     .avatar {
-        height: 20rem;
-        animation: moveInLeft 1s ease;
-        -webkit-animation: moveInLeft 1s ease; 
-    }
+    object-fit: cover;
 }
