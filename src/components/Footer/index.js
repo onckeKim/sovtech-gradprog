@@ -23,6 +23,7 @@ export const Footer = () => {
     return(
                 <footer className="footer">
                     <ul>
+                       {/*eslint-disable-next-line*/}
                         {STATIC_LINKS.map(staticLink => <li key={staticLink.name}>{staticLink.icon}<a  href={staticLink.link} target='_blank'>{staticLink.name}</a></li>)}
                     </ul>
                 </footer>
