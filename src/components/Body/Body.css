@@ -1,0 +1,89 @@
+*::after,
+*::before {
+margin: 0;
+padding: 0;
+box-sizing: inherit; 
+}
+
+body {
+background-color: rgba(156, 214, 229, 0.715);
+}
+
+.avatar {
+    height: 35rem;
+    border-radius: 50rem;
+    -webkit-border-radius: 20rem;
+    -moz-border-radius: 20rem;
+    -ms-border-radius: 20rem;
+    -o-border-radius: 20rem;
+    animation: moveInBottom 1s ease;
+    -webkit-animation: moveInBottom 1s ease;
+}
+
+.greeting-container {
+margin-left: 4rem; }
+    
+.greeting-container__header {
+    font-size: 4rem;
+    font-weight: 500;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    animation: moveInRight 1.5s ease;
+    -webkit-animation: moveInRight 1.5s ease; }
+    
+.greeting-container__header:hover, .greeting-container__header:active {
+    color: #faf3ef;
+    cursor: pointer; 
+}
+    
+
+.greeting-container__intro{
+    bottom: 20px;
+    font-size: 15px;
+    font-family: 'Florence';
+    text-align: center;
+    padding: 25px;
+    text-shadow: 0.5px 0.5px 1px rgba(0, 0, 0, 0.3);
+    animation: moveInRight 1.5s ease;
+    -webkit-animation: moveInRight 1.5s ease; }
+    
+.greeting-container__about-tag {
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.7rem;
+    color: #020202; }
+
+.greeting-container__about-tag:hover, .greeting-container__about-tag::after {
+    color: white;
+    background-color: #7397a5;
+    transform: skewX(20deg);
+    -webkit-transform: skewX(20deg);
+    -moz-transform: skewX(20deg);
+    -ms-transform: skewX(20deg);
+    -o-transform: skewX(20deg); 
+}
+
+#home {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 0; 
+  }
+  
+@media only screen and (max-width: 800px) {
+    #home {
+        flex-direction: column; 
+    }
+    
+    #home .avatar {
+        height: 20rem;
+        animation: moveInLeft 1s ease;
+        -webkit-animation: moveInLeft 1s ease; 
+    }
+    
+    #home .greeting-container {
+        margin-left: 0;
+        margin-top: 4rem; 
+    }
+}

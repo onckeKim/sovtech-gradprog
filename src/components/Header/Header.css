@@ -1,0 +1,22 @@
+
+header {
+    width: 100vw; 
+    height: 10px ;
+}
+
+
+.navbar-logo__title {
+    font-size: 2rem;
+    font-weight: bolder;
+    font-family: 'Dancing Script', cursive;
+    color: #020202;
+    text-align: left; 
+}
+
+.navbar-logo__title:hover, .navbar-logo__title:active {
+    color: #faf3ef;
+    cursor: pointer; 
+    }
+
+
+

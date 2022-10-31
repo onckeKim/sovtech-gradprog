@@ -1,0 +1,28 @@
+table {
+    width: 100%;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    flex-direction: column;
+    column-gap: 40px;   
+
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    height: 8rem;
+    background-color: #87a2b4;
+    justify-content: space-between;
+    padding: 0 2rem; 
+}
+
+.navbar-logo {
+    font-size: 1.3rem;
+    font-weight: 500;
+    font-family: 'Florence';
+    color: #020202;
+    text-decoration: none; 
+    margin: auto;
+}
+
