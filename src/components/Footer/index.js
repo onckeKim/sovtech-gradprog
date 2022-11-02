@@ -12,8 +12,9 @@ const STATIC_LINKS = [{
 {
     name: 'Linkedin',
     icon: <AiFillLinkedin color='inherit' />,
-    link: 'https://www.linkedin.com'
-}, {
+    link: 'www.linkedin.com/in/kim-oncke-791a941a6'
+}, 
+{
     name: 'Github',
     icon: <AiFillGithub color='inherit' />,
     link: 'https://github.com/onckekim'

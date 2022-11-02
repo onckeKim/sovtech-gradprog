@@ -4,6 +4,7 @@
     flex-direction: row;
     align-items: center;
     flex: 1;
+    z-index: 1;
 }
 
 .about_text{
