@@ -12,7 +12,7 @@ const STATIC_LINKS = [{
 {
     name: 'Linkedin',
     icon: <AiFillLinkedin color='inherit' />,
-    link: 'www.linkedin.com/in/kim-oncke-791a941a6'
+    link: 'https://linkedin.com/in/kim-oncke-791a941a6'
 }, 
 {
     name: 'Github',
