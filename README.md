@@ -25,10 +25,6 @@ By opening [local host port : 3000](http://localhost:3000) we are able to view i
 The page will reload when you make changes.
 You may also see any lint errors in the console.
 
-### run `npm test`
-
-Launches the test runner in the interactive watch mode.
-
 ## Portfolio View
 
 Here is a look into
@@ -38,4 +34,4 @@ Here is a look into
 
 Kim Oncke : onckekim@gmail.com
 
-Project Link : https://github.com/onckeKim/sovtech-gradprog.git
+Project Link : https://lambent-dango-30e7af.netlify.app/
